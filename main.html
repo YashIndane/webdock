@@ -1,0 +1,55 @@
+<html>
+
+  <head>
+    <title>
+    </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel = "stylesheet" type = "text/css" href = "main.css">
+  </head>
+
+  <body style="background-color:#87CEEB">
+
+      <h2 style="font-family: Tahoma" id = "wd"><b>webdock</b></h2>
+      <input type = "text" id = "ibox"/></br>
+      <button class="btn btn-outline-dark" id = "csub" onclick = "exe()" style="font-family:Tahoma">
+        RUN
+        <i class="fas fa-running"></i>
+      </button>
+     </br>
+     </br>
+     </br>
+
+   <pre><p id = "outdiv"></p></pre>
+   <button class = "btn btn-primary" id = "imgbut" onclick = "img()" style="font-family:Tahoma">
+    <i class="far fa-clone"></i>    
+    Show Images
+   </button>
+
+   <button class = "btn btn-primary" id = "lvcon" onclick = "lvcon()" style="font-family:Tahoma">
+    <i class="fas fa-th-large"></i>
+     Containers
+   </button>
+
+   <h id = "doc" ><b>Dockerfile</b></h>
+   <form action = "http://IP/cgi-bin/df.py">
+   <textarea rows = "16", cols = "100", id = "ta" name="co">
+   </textarea>
+   
+   <input type = "text" id = "in" placeholder = "image name" name="na"/>
+   <input type = "text" id = "iv" placeholder = "image version" name="ver"/>
+   <input type = "text" id = "un" placeholder = "username"/ name="user">
+   <input type = "password" id = "pa" placeholder = "password"/ name="pass">
+   <button type = "submit" class = "btn btn-outline-dark" id = "ss" style = "font-family:Tahoma">
+   <i class="fas fa-hammer"></i>
+   Build Image
+   </button>
+   </form>
+
+  </body>
+
+  <script type = "text/javascript" src = "main2.js"></script>
+
+</html>

@@ -1,0 +1,117 @@
+#ibox{ 
+  position: absolute;
+  width: 50%;
+  border-radius: 6px;
+  height: 36px;
+  left: 350px;
+  top: 50px; 
+  background: transparent;
+  font-weight: bold;
+  font-family: "Tahoma";
+}
+
+#csub{
+  position: absolute;
+  width: 100px;
+  height: 36px;
+  top: 50px;
+  left: 1125px;
+  border-radius: 6px
+ 
+}
+
+#outdiv{
+  position: absolute;
+  left: 350px;
+
+}
+
+#imgbut{
+
+  position: absolute;
+  top: 50px;
+  height: 36px;
+  width: 160px;
+  left: 40px;
+}
+
+#lvcon{
+  position: absolute;
+  top: 90px;
+  height: 36px;
+  width: 160px;
+  left: 40px;
+
+}
+
+#ta{
+ position: absolute;
+ left: 350px;
+ border-radius: 6px;
+ top: 350px;
+
+}
+
+#doc{
+ position: absolute;
+ left: 350px;
+ top: 320px;
+ font-family: "Tahoma";
+}
+
+#in{
+ position: absolute;
+ left: 1100px;
+ top: 350px;
+ border-radius: 6px;
+ background: transparent;
+ font-family: "Tahoma";
+ 
+}
+
+#iv{
+ position: absolute;
+ left: 1100px;
+ top: 400px;
+ border-radius: 6px;
+ background: transparent;
+ font-family: "Tahoma";
+
+}
+#un{
+ position: absolute;
+ left: 1100px;
+ top: 450px;
+ border-radius: 6px;
+ background: transparent;
+ font-family: "Tahoma";
+
+}
+#pa{
+ position: absolute;
+ left: 1100px;
+ top: 500px;
+ border-radius: 6px;
+ background: transparent;
+ font-family: "Tahoma";
+
+}
+
+#ss{
+ position: absolute;
+ left: 1100px;  
+ top: 550px;
+ width: 200px;
+ 
+
+}
+
+#ta{
+ white-space: pre-line;
+
+}
+
+#wd{
+ position: absolute;
+ left: 350px;
+}
